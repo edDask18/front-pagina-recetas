@@ -1,4 +1,4 @@
-import { Navbar } from '../common/Navbar';
+import { Navbar } from './Navbar';
 import { Hero } from './Hero'
 
 export function HomePage(){
