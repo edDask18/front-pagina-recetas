@@ -4,7 +4,7 @@ import { Content } from "./Content"
 export function Dashboard(){
     return(
         <>
-            <div className="flex min-h-screen">
+            <div className="flex w-screen">
                 <Sidebar />
                 <Content />
             </div>

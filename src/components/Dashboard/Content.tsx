@@ -3,7 +3,7 @@ import { MyRecipes } from "./MyRecipes"
 
 export function Content(){
     return(
-        <div className="bg-gray-200 w-5/6 p-6">
+        <section className="bg-gray-200 p-6 w-5/6 absolute right-0">
             <div className="flex justify-between items-center mb-7">
                 <div>
                     <p className="text-lg">Inicio</p>
@@ -20,6 +20,6 @@ export function Content(){
             </div>
             <MyRecipes />
             {/* <MyProfile /> */}
-        </div>
+        </section>
     )
 }
